@@ -2,7 +2,7 @@
   "name": "chatapp",
   "version": "1.0.0",
   "description": "First chat app with socket integrated for real time updates",
-  "main": "app.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server/server.js",
     "test": "mocha server/**/*.test.js",
