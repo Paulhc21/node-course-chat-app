@@ -55,11 +55,6 @@ socket.on('newMessage', function ( message ) {
 
     $( '#messages' ).append(html);
     scrollToBottom();
-
-    // var li = $( '<li></li>' );
-    // li.text(`${ message.from } ${ formattedTime }: ${ message.text }`);
-
-    // $( '#messages' ).append(li);
 });
 
 socket.on('newLocationMessage', function ( message ) {
